@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        // এটি একটি সিঙ্গেল পেজ অ্যাপলিকেশনের (SPA) জন্য রিডাইরেক্ট স্ক্রিপ্ট।
+        // GitHub Pages এ রিলোড সমস্যা সমাধানের জন্য এটি সাহায্য করে।
+
+        // sessionStorage থেকে রিডাইরেক্ট পাথ নেওয়ার চেষ্টা (যদি থাকে)
+        (function() {
+            const redirect = sessionStorage.redirect;
+            delete sessionStorage.redirect;
+            if (redirect && redirect != location.href) {
+                history.replaceState(null, null, redirect);
+            }
+        })();
+
+        // বর্তমান পাথ অনুযায়ী index.html এ রিডাইরেক্ট করা
+        (function() {
+            // বর্তমান URL এর পাথ অংশটি নেওয়া হচ্ছে
+            const path = location.pathname;
+
+            // *** খুবই গুরুত্বপূর্ণ: আপনার GitHub Pages repository এর নাম দিয়ে "/MovieBD99" অংশটি পরিবর্তন করুন ***
+            // *** যদি আপনার সাইট রুট ডোমেইনে থাকে (যেমন: yourname.github.io), তাহলে const basePath = ""; ব্যবহার করুন ***
+            // *** যদি এটি একটি প্রজেক্ট হয় (যেমন: yourname.github.io/MovieBD99), তাহলে const basePath = "/MovieBD99"; ব্যবহার করুন ***
+            const basePath = "/MovieBD99"; 
+
+            // index.html পেজে রিডাইরেক্ট করা হচ্ছে।
+            // আসল পাথটি 'p' প্যারামিটার হিসেবে পাঠানো হচ্ছে, যাতে index.html বুঝতে পারে কোন পেজ দেখাতে হবে।
+            // নিশ্চিত করুন যে আপনার index.html এর পাথ সঠিক (সাধারণত basePath + '/' বা basePath + '/index.html')
+            location.replace(basePath + '/?p=' + encodeURIComponent(path));
+
+        })();
+    </script>
+</head>
+<body>
+    <p>If you are not redirected automatically, please wait a moment or <a id="redirect-link" href="/">click here to go to the homepage</a>.</p>
+    <script>
+        // লিঙ্কটি আপডেট করা হচ্ছে, যদি রিডাইরেকশন কাজ না করে।
+        const basePath = "/MovieBD99"; // *** এটিও আপনার প্রজেক্ট অনুযায়ী পরিবর্তন করুন ***
+        document.getElementById('redirect-link').href = basePath + '/';
+    </script>
+</body>
+</html>
