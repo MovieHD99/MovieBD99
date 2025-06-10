@@ -1,5 +1,23 @@
 const movies = [
     {
+        "title": "Bachelor Point Season 5 Ep 8",
+        "year": "2025",
+        "category": "Romance",
+        "img": "https://cdn.bongo-solutions.com/abfea462-f64d-491e-9cd9-75ee001f45b0/content/d961fe4c-1ae8-4f8f-ac91-e009a3a32391/5060d765-fd71-4493-8969-3fff61ddf11f.jpg",
+        "desc": "Full in Bangla WEB-DL",
+        "download": "#",
+        "videoUrl": "https://rumble.com/embed/v6se55z/?pub=1tf892"
+    },
+    {
+        "title": "Bachelor Point Season 5 Ep 7",
+        "year": "2025",
+        "category": "Romance",
+        "img": "https://cdn.bongo-solutions.com/abfea462-f64d-491e-9cd9-75ee001f45b0/content/d961fe4c-1ae8-4f8f-ac91-e009a3a32391/5060d765-fd71-4493-8969-3fff61ddf11f.jpg",
+        "desc": "Full in Bangla WEB-DL",
+        "download": "#",
+        "videoUrl": "https://rumble.com/embed/v6se511/?pub=1tf892"
+    },
+    {
         "title": "Bachelor Point Season 5 Ep 6",
         "year": "2025",
         "category": "Romance",
