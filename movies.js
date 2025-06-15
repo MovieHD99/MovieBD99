@@ -1,13 +1,13 @@
 const movies = [
     {
-  "title": "Bohemian Ghora",
-  "year": "2025",
-  "category": "Comedy, Drama",
-  "img": "https://m.media-amazon.com/images/M/MV5BZWIwODk1ODQtZTVhOS00MmRmLWEzNzAtMWE2NWNmMmRmZjE4XkEyXkFqcGc@._V1_.jpg",
-  "desc": "S01 Completed Full Series in Bangla WEB-DL",
-  "download": "#"
-  "videoUrl": "https://vembed.online/e/tt36968329"
-},
+        "title": "Bohemian Ghora",
+        "year": "2025",
+        "category": "Comedy, Drama",
+        "img": "https://m.media-amazon.com/images/M/MV5BZWIwODk1ODQtZTVhOS00MmRmLWEzNzAtMWE2NWNmMmRmZjE4XkEyXkFqcGc@._V1_.jpg",
+        "desc": "S01 Completed Full Series in Bangla WEB-DL",
+        "download": "#",
+        "videoUrl": "https://vembed.online/e/tt36968329"
+    },
     {
         "title": "Bachelor Point Season 5 Ep 8",
         "year": "2025",
