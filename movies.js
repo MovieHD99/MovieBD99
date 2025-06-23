@@ -1,5 +1,14 @@
 const movies = [
     {
+  "title": "Thug Life",
+  "year": "2025",
+  "category": "Action, Drama, Thriller",
+  "img": "https://image.tmdb.org/t/p/original/DmBbUtbA3T9sdVXDgIJ8bsIDw0.jpg",
+  "desc": "Full Movie in Hindi Dubbed WEB-DL [ORG Hindi]",
+  "download":"#",
+  "videoUrl": "https://vembed.online/e/tt23398540"
+},
+    {
   "title": "Chokkor 302",
   "year": "2025",
   "category": "Mystery, Thriller",
