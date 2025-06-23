@@ -1,5 +1,32 @@
 const movies = [
     {
+  "title": "Chokkor 302",
+  "year": "2025",
+  "category": "Mystery, Thriller",
+  "img": "https://image.tmdb.org/t/p/original/o2oOpfhEKmKxlmZr0DBsIhizMhg.jpg",
+  "desc": "Full HD movie in Bangla WEB-DL",
+  "download":"#",
+  "videoUrl": "https://vembed.online/e/tt36108604"
+},
+    {
+  "title": "Sitaare Zameen Par",
+  "year": "2025",
+  "category": "Comedy, Drama",
+  "img": "https://image.tmdb.org/t/p/w300/2ztRFbp1YSvMSIrr7AqYq6i6pqC.jpg",
+  "desc": "Full Movie in Hindi HDTC [The Best Quality]",
+  "download":"#",
+  "videoUrl": "https://vembed.online/e/tt29471573"
+},
+    {
+  "title": "Kuberaa",
+  "year": "2025",
+  "category": "Crime, Thriller, Drama",
+  "img": "https://m.media-amazon.com/images/M/MV5BZTEzODE2OTMtYjExZi00MDI5LWJiZTMtMmQyYzQ4YjZjZTViXkEyXkFqcGc@._V1_.jpg",
+  "desc": "Full Movie in Hindi HDTS [The Best Quality]",
+  "download":"#",
+  "videoUrl": "https://vembed.online/e/tt23846482"
+},
+    {
         "title": "Bohemian Ghora",
         "year": "2025",
         "category": "Comedy, Drama",
