@@ -560,46 +560,6 @@
                 adCheckTimeout = setTimeout(attemptToShowAd, AD_INTERVAL);
             }
 
-            function attemptToShowAd() {
-                clearTimeout(adCheckTimeout); // ডুপ্লিকেট টাইমআউট এড়াতে ক্লিয়ার করুন
-
-                if (canShowAdNow() && adScriptContainer) {
-                    console.log("Loading ad...");
-                    adScriptContainer.innerHTML = ''; // আগের কিছু থাকলে পরিষ্কার করুন
-                    adScriptContainer.style.display = 'block'; // কন্টেইনার দেখান
-
-                    const script = document.createElement('script');
-                    script.type = 'text/javascript';
-                    // আমরা আগের d1... স্ক্রিপ্টটি ব্যবহার করছি
-                    script.src = '//surprisinglystaunchdemocratic.com/d1/26/cc/d126cc889115577f9acfa2f4b91c68e7.js';
-                    script.onerror = () => {
-                        console.error("Ad script failed to load.");
-                        adScriptContainer.innerHTML = '';
-                        adScriptContainer.style.display = 'none';
-                        // লোড না হলে ৩০ মিনিট পর আবার চেষ্টা করুন
-                        adCheckTimeout = setTimeout(attemptToShowAd, AD_INTERVAL);
-                    };
-                    script.onload = () => {
-                        console.log("Ad script loaded. Click container to hide for 30 mins.");
-                        // কন্টেইনারে ক্লিক লিসেনার যোগ করুন
-                        adScriptContainer.onclick = handleAdClicked;
-                        // যদি ক্লিক না হয়, ৩০ মিনিট পর আবার দেখানোর চেষ্টা করুন
-                        adCheckTimeout = setTimeout(attemptToShowAd, AD_INTERVAL);
-                    };
-                    adScriptContainer.appendChild(script);
-
-                } else {
-                    console.log("Ad suppressed (waiting 30 mins post-click).");
-                    const lastClick = localStorage.getItem('lastAdClickTime');
-                    let timeToWait = AD_INTERVAL;
-                    if (lastClick) {
-                        timeToWait = AD_INTERVAL - (Date.now() - parseInt(lastClick));
-                    }
-                    // আবার চেক করার জন্য টাইমআউট সেট করুন
-                    adCheckTimeout = setTimeout(attemptToShowAd, Math.max(10000, timeToWait)); // কমপক্ষে ১০ সেকেন্ড অপেক্ষা করুন
-                }
-            }
-
             // Initialization function
             function init() {
                 updateNavLinks();
@@ -624,5 +584,6 @@
             }
         }); // End of DOMContentLoaded
     </script>
+	<script type='text/javascript' src='//surprisinglystaunchdemocratic.com/d1/26/cc/d126cc889115577f9acfa2f4b91c68e7.js'></script>
 </body>
 </html>
