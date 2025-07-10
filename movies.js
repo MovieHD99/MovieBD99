@@ -3,7 +3,7 @@ const movies = [
         "title": "Bachelor Point Season 5 Ep 9",
         "year": "2025",
         "category": "Romance",
-        "img": "https://postimg.cc/CnY15J6H",
+        "img": "https://i.postimg.cc/nr9QdP45/photo-2025-07-10-19-02-28.jpg",
         "desc": "Full in Bangla WEB-DL",
         "download": "#",
         "videoUrl": "https://rumble.com/embed/v6tsnyi/?pub=1tf892"
