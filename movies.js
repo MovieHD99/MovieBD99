@@ -1,5 +1,14 @@
 const movies = [
     {
+        "title": "Bachelor Point Season 5 Ep 9",
+        "year": "2025",
+        "category": "Romance",
+        "img": "https://postimg.cc/CnY15J6H",
+        "desc": "Full in Bangla WEB-DL",
+        "download": "#",
+        "videoUrl": "https://rumble.com/embed/v6tsnyi/?pub=1tf892"
+    },
+    {
   "title": "Thug Life",
   "year": "2025",
   "category": "Action, Drama, Thriller",
