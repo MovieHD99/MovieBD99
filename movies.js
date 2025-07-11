@@ -1,5 +1,23 @@
 const movies = [
     {
+        "title": "Bachelor Point Season 5 Ep 9 To 16",
+        "year": "2025",
+        "category": "Romance",
+        "img": "https://i.postimg.cc/nr9QdP45/photo-2025-07-10-19-02-28.jpg",
+        "desc": "Full in Bangla WEB-DL",
+        "download": "#",
+        "videoUrl": "https://rumble.com/embed/v6tuo4m/?pub=1tf892"
+    },
+    {
+        "title": "Bachelor Point Season 5 Ep 10",
+        "year": "2025",
+        "category": "Romance",
+        "img": "https://i.postimg.cc/nr9QdP45/photo-2025-07-10-19-02-28.jpg",
+        "desc": "Full in Bangla WEB-DL",
+        "download": "#",
+        "videoUrl": "https://rumble.com/embed/v6tule8/?pub=1tf892"
+    },
+    {
         "title": "Bachelor Point Season 5 Ep 9",
         "year": "2025",
         "category": "Romance",
