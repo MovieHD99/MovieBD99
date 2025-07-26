@@ -6,7 +6,7 @@ const movies = [
   "img": "https://image.tmdb.org/t/p/w300/tsTC69zbKSloEEVD9FUS3robmyh.jpg",
   "desc": "HALLPRINT",
    "videoUrl":"https://rumble.com/embed/v6ui78m/?pub=1tf892",
-}
+},
     {
   "title": "Hari Hara Veera Mallu: Part 1 – Sword vs Spirit",
   "year": "2025",
