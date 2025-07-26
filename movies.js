@@ -1,5 +1,29 @@
 const movies = [
     {
+  "title": "Mahavatar Narsimha",
+  "year": "2025",
+  "category": "Fantasy",
+  "img": "https://image.tmdb.org/t/p/w300/tsTC69zbKSloEEVD9FUS3robmyh.jpg",
+  "desc": "HALLPRINT",
+   "videoUrl":"https://rumble.com/embed/v6ui78m/?pub=1tf892",
+}
+    {
+  "title": "Hari Hara Veera Mallu: Part 1 – Sword vs Spirit",
+  "year": "2025",
+  "category": "Action, Adventure, Drama",
+  "img": "https://image.tmdb.org/t/p/original/5KIH7zTSx83VByR3jpK6tzgeyBo.jpg",
+  "desc": "HDTS [The Best Quality]",
+  "videoUrl": "https://vembed.online/e/tt2691804"
+},
+    {
+  "title": "Thalaivan Thalaivii",
+  "year": "2025",
+  "category": "Romance, Comedy, Drama",
+  "img": "https://image.tmdb.org/t/p/original/4IbK7sF1Uozd4iaPXPsCxAws5mM.jpg",
+  "desc": "HDTC [The Best Quality]",
+  "videoUrl": "https://vembed.online/e/tt32827713"
+},
+    {
         "title": "Bachelor Point Season 5 Ep 9 To 16",
         "year": "2025",
         "category": "Romance",
