@@ -6,7 +6,7 @@ const movies = [
   "img": "https://image.tmdb.org/t/p/original/16ZYIQkjJMaZXpRdF6icVXl9Fcd.jpg",
   "desc": "HDTS [The Best Quality]",
   "download":"#",
-  "watch_online": "https://vembed.online/e/tt29429860"
+  "videoUrl": "https://vembed.online/e/tt29429860"
 },
     {
   "title": "Maalik (2025) Hindi HDRip - 1080p",
@@ -15,7 +15,7 @@ const movies = [
   "img": "https://m.media-amazon.com/images/M/MV5BMWY5ZjlmZmItNjQ4Ni00ZjEwLWJhNTYtODg2ZDA5MWI3YzRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
   "desc": "Full HD With English Subtitle",
   "download":"#",
-  "watch_online": "https://rumble.com/embed/v6uw14i/?pub=1tf892"
+  "videoUrl": "https://rumble.com/embed/v6uw14i/?pub=1tf892"
 },
     {
   "title": "Ne Zha 2",
@@ -24,7 +24,7 @@ const movies = [
   "img": "https://m.media-amazon.com/images/M/MV5BZTY4YmUwYmMtMDJhNS00YzkzLWFhMzUtMDk3NTdiYWQ3MmE3XkEyXkFqcGc@._V1_.jpg",
   "desc": "Full HD With English Subtitle",
   "download":"#",
-  "watch_online": "https://vembed.online/e/tt34956443"
+  "videoUrl": "https://vembed.online/e/tt34956443"
 },
     {
   "title": "Mahavatar Narsimha",
