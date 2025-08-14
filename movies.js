@@ -1,5 +1,23 @@
 const movies = [
     {
+    "title": "War 2",
+    "year": "2025",
+    "category": "Action, Adventure, Thriller",
+    "img": "https://blogger.googleusercontent.com/img/a/AVvXsEjxiFydlbsMt9fQGjfF2Gm7z9OttW3lKk2qKqVI9B35WxyxsfNn6q-V6GS8n893iatElk__UegoNBRdnJUAfm0GT8w3l9AWrNEz7fR1GmFK6X4vW2cfTn5Eu1S7fn1hj74HqivSxBB-7kfRnm8ITZoh-WLI6GqfYx2W2mu8RMx01Qpi5V7p_o4j2DYCE7q9=w229-h326",
+    "desc": "Things get complicated when Kabir Dhaliwal, a secret agent, is accused of betraying his nation and his former batchmate Vikram is assigned the task of finding him.",
+    "download": "https://www.filmyzilla19.com/server/31941/War-2-(2025)-Hindi-Movie-1080p-HDCAM.mkv.html",
+    "videoUrl": "https://newfd.movielinkbd.sbs/e/10a0e1ab3117a7b2cf91fabb3fa1076dcffb099530385ade438b8d42966afe3cfe11420368d9c9ca0c-16dace811bb0818e0080f33b"
+  },
+  {
+    "title": "Coolie",
+    "year": "2025",
+    "category": "Action, Drama",
+    "img": "https://upload.wikimedia.org/wikipedia/en/c/c3/Coolie_2025_poster.jpg",
+    "desc": "A high-octane action drama following a railway coolie who gets entangled in a battle against a corrupt system while fighting for justice.",
+    "download": "https://www.filmyzilla19.com/server/31944/Coolie-(2025)-Hindi-Dubbed-Movie-1080p-HDTC.mkv.html",
+    "videoUrl": "https://vembed.online/e/tt27441481"
+  }
+    {
   "title": "Son of Sardaar 2",
   "year": "2025",
   "category": "Comedy, Drama",
