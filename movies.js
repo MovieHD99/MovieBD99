@@ -16,7 +16,7 @@ const movies = [
     "desc": "A high-octane action drama following a railway coolie who gets entangled in a battle against a corrupt system while fighting for justice.",
     "download": "https://www.filmyzilla19.com/server/31944/Coolie-(2025)-Hindi-Dubbed-Movie-1080p-HDTC.mkv.html",
     "videoUrl": "https://vembed.online/e/tt27441481"
-  }
+  },
     {
   "title": "Son of Sardaar 2",
   "year": "2025",
