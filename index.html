@@ -530,35 +530,6 @@
                 }
             }
 
-            // --- Advertisement Logic (সংশোধিত) ---
-
-            function canShowAdNow() {
-                const lastClickTime = localStorage.getItem('lastAdClickTime');
-                if (!lastClickTime) return true; // আগে ক্লিক না হলে দেখাও
-                // ৩০ মিনিট পার হয়েছে কিনা চেক করুন
-                return (Date.now() - parseInt(lastClickTime)) >= AD_INTERVAL;
-            }
-
-            function handleAdClicked() {
-                console.log("Ad container clicked - Hiding for 30 mins!");
-                localStorage.setItem('lastAdClickTime', Date.now());
-                if (adScriptContainer) {
-                    adScriptContainer.innerHTML = ''; // বিজ্ঞাপন সরিয়ে দিন
-                    adScriptContainer.style.display = 'none'; // কন্টেইনার লুকিয়ে ফেলুন
-                }
-                clearTimeout(adCheckTimeout); // আগের টাইমআউট ক্লিয়ার করুন
-                // ৩০ মিনিট পর আবার চেষ্টা করার জন্য নতুন টাইমআউট সেট করুন
-                adCheckTimeout = setTimeout(attemptToShowAd, AD_INTERVAL);
-            }
-
-            // Initialization function
-            function init() {
-                updateNavLinks();
-                handleRouteChange(); // Handle initial load / reload
-                nextBtn.addEventListener("click", displayMovies);
-                attemptToShowAd(); // প্রথমবার বিজ্ঞাপন দেখানোর চেষ্টা করুন
-            }
-
             // Ensure movies.js is loaded before initializing
             if (typeof movies !== 'undefined' && movies.length > 0) {
                 init();
@@ -575,6 +546,6 @@
             }
         }); // End of DOMContentLoaded
     </script>
-	<script type='text/javascript' src='//surprisinglystaunchdemocratic.com/d1/26/cc/d126cc889115577f9acfa2f4b91c68e7.js'></script>
+	<script type='text/javascript' src='//midgerelativelyhoax.com/d1/26/cc/d126cc889115577f9acfa2f4b91c68e7.js'></script>
 </body>
 </html>
