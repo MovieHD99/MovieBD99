@@ -209,41 +209,42 @@
             text-align: center;
         }
 
-        ..video-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    background: #000;
-    margin-bottom: 1.5rem;
-    border-radius: 8px;
-    box-sizing: border-box;
-}
+        .video-container { /* CORRECTED: Removed extra dot */
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
 
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-    box-sizing: border-box;
-}
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            box-sizing: border-box;
+        }
 
-@media (max-width: 768px) {
-    .video-container {
-        width: 100%;
-        padding-bottom: 56.25%;
-        margin: 0 auto 1rem auto;
-    }
+        @media (max-width: 768px) {
+            .video-container {
+                width: 100%;
+                padding-bottom: 56.25%;
+                margin: 0 auto 1rem auto;
+            }
 
-    .video-container iframe {
-        width: 100%;
-        height: 100%;
-    }
-}   
+            .video-container iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        
         #ad-script-container {
             margin: 1.5rem auto;
             text-align: center;
@@ -439,12 +440,12 @@
                 `;
 
                 if (movie.videoUrl) {
-    movieDetailHtml += `
-        <div class="video-container">
-            <iframe src="${movie.videoUrl}" sandbox="allow-same-origin allow-scripts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
-        </div>
-    `;
-}
+                    movieDetailHtml += `
+                        <div class="video-container">
+                            <iframe src="${movie.videoUrl}" sandbox="allow-same-origin allow-scripts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
+                        </div>
+                    `;
+                }
 
                 movieDetailHtml += `
                     <a href="${movie.download}" class="download-btn" download>⬇️ Download</a>
@@ -530,6 +531,14 @@
                 }
             }
 
+            // CORRECTED: Added the init() function to set up the app
+            function init() {
+                updateNavLinks();
+                handleRouteChange();
+                nextBtn.addEventListener('click', displayMovies);
+            }
+
+            // CORRECTED: Changed logic to call the new init() function
             // Ensure movies.js is loaded before initializing
             if (typeof movies !== 'undefined' && movies.length > 0) {
                 init();
